@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Berencana ke Lombok? ulailah dari sini!</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+
+        <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css"/>
+        <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css"/>
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="fig/logo.png" alt="Logo" width="45" height="25" class="d-inline-block align-text-top"/>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggler">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto align-items-center">
+                        <a class="nav-link" href="#trek">Trek</a>
+                        <a class="nav-link" href="#destinasi">Destinasi</a>
+                        <a class="nav-link" href="#penduduk">Menyatu Dengan Penduduk Lokal</a>
+                        <a class="nav-link" href="#souvenir">Souvenir</a>
+                        <a class="nav-link" href="#jalur">Jalur Tempuh</a>
+                        <a class="nav-link" href="#pict">Picture</a>
+                        <a class="nav-link" href="#kaki">Tentang Kami</a>
+                        <button class="nav-link search-btn" id="searchButton">
+                            <i class="nav-link fi fi-rr-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Tambahkan ini setelah navbar -->
+        <div id="mobileMenuOverlay"></div>
+        <div id="mobileMenu">
+            <a class="nav-link" href="#trek">Trek</a>
+            <a class="nav-link" href="#destinasi">Destinasi</a>
+            <a class="nav-link" href="#penduduk">Menyatu Dengan Penduduk Lokal</a>
+            <a class="nav-link" href="#souvenir">Souvenir</a>
+            <a class="nav-link" href="#jalur">Jalur Tempuh</a>
+            <a class="nav-link" href="#pict">Picture</a>
+            <a class="nav-link" href="#kaki">Tentang Kami</a>
+            <button class="nav-link search-btn" id="searchButtonMobile">
+                <i class="nav-link fi fi-rr-search"></i>
+            </button>
+        </div>
+
+        <!-- Modal Pencarian -->
+        <div id="searchModal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="closeModal">&times;</span>
+                <h5>Search</h5>
+                <input type="text" id="searchInput" placeholder="Type your search here"/>
+                <button id="searchSubmit">Search</button>
+            </div>
+        </div>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="lombok/lombokH.jpg" class="d-block w-100" alt="Banner"/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Lombok</h1>
+                        <p>#DiIndonesiaAja</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main class="container">
+            <section class="content">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mt-2">
+                        <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Lombok</li>
+                    </ol>
+                </nav>
+                <h1 class="section-title justify-content-start">Lombok</h1>
+                <div class="break-line">
+                    <hr class="border-0"/>
+                </div>
+                <p class="mt-4">
+                    Dengan pantai-pantai nan memesona, Gunung Rinjani yang indah, serta pemandangan bawah laut yang spektakuler, Lombok di Nusa Tenggara Barat akan memanjakan mata Sobat Pesona baik saat berada di darat maupun di air. Tidak
+                    heran, jika pulau kecil ini menjelma menjadi destinasi paling populer di Nusa Tenggara Barat.
+                </p>
+
+                <h3 id="trek" class="section-title fw-semibold justify-content-start">Mencoba Trek yang Menantang</h3>
+                <p class="mt-4">
+                    Sobat Pesona ingin melakukan sesuatu yang menantang dan memacu adrenalin? Yuk, mendaki gunung berapi dengan trek yang curam. Kalau Sobat Pesona lebih suka sesuatu yang tidak terlalu menantang, coba sewa sepeda lalu
+                    berkeliling melintasi hamparan sawah yang hijau. Apapun pilihan Sobat Pesona, Lombok tetap akan menyuguhkan pemandangan alam yang fantastik.
+                </p>
+                <p class="mt-4">Pulau Lombok dan Bali dipisahkan oleh Selat Lombok di sebelah barat, sedangkan di sebelah timur Pulau Lombok dan Sumbawa dipisahkan oleh Selat Alas.</p>
+                <p class="mt-4">
+                    Suku Sasak merupakan suku yang mendominasi Pulau Lombok. Mereka tinggal di lima wilayah, antara lain Lombok Utara, Lombok Tengah, Lombok Timur, Lombok Barat, dan Kota Mataram yang merupakan ibukota dari Nusa Tenggara
+                    Barat.
+                </p>
+                <p class="mt-4">
+                    Lombok Utara adalah tempat di mana Gunung Rinjani berada. Gunung Rinjani adalah salah satu gunung api tertinggi di Indonesia yang ketinggiannya mencapai 3.726 meter di atas permukaan laut. Danau Segara Anak yang berada
+                    di Gunung Rinjani, juga menjadi spot yang wajib dikunjungi. Pemandangannya yang disuguhkan sangat menakjubkan deh pokoknya!
+                </p>
+                <img alt="Pemandangan sore di pergununang di pulau lombok" src="lombok/lombok1 (1).jpg"/>
+                <h3 id="destinasi" class="section-title fw-semibold justify-content-start mt-4">Destinasi</h3>
+                <p class="mt-4">Lombok dikenal memiliki banyak gili atau pulau kecil. Di antara lebih dari 20 gili yang ada di sana, ada tiga gili yang paling terkenal yakni Gili Trawangan, Gili Meno dan Gili Air.</p>
+                <p class="mt-4">
+                    Gili Trawangan atau Gili T adalah tempat favorit wisatawan untuk menghabiskan waktu di siang hari. Sobat Pesona bisa bersantai di sana sambil berjemur. Ketika malam tiba, Sobat Pesona bisa menikmati suasana pantai yang
+                    indah dengan diterangi cahaya rembulan. Sobat Pesona juga bisa mencoba scuba diving atau bisa juga nih mengelilingi pulau dengan menggunakan sepeda.
+                </p>
+                <p class="mt-4">
+                    Gili Meno memiliki hamparan pantai pasir putih yang panjang. Spot ini cocok banget buat Sobat Pesona yang menginginkan suasana tenang dan agak terpencil. Destinasi ini biasanya jadi tujuan favorit pasangan yang sedang
+                    berbulan madu. Ada banyak akomodasi yang dapat Sobat Pesona temukan di sini, mulai dari bungalow yang unik, hingga resor mewah dengan pemandangan alam yang ciamik.
+                </p>
+                <p class="mt-4">
+                    Gili Air menyuguhkan nuansa yang berbeda dari dua gili sebelumnya. Gili Air menjadi tempat yang bisa digunakan baik untuk berpesta, bersantai, maupun menyendiri di pinggir pantai. Sobat Pesona bisa menjelajahi keindahan
+                    tempat ini dengan naik kereta kuda atau dengan berenang.
+                </p>
+                <p class="mt-4">
+                    Lombok Tenang adalah pusat pantai-pantai yang memesona. Ada Pantai Kuta, Pantai Tanjung A'an, Pantai Mawun, dan masih banyak lagi. Sobat Pesona bisa bermain dengan ombak di Pantai Selong Belanak, atau jika menyukai
+                    pegunungan silahkan datang ke Bukit Merese.
+                </p>
+                <img alt="Pantai Lombok" src="lombok/lombok2.jpg"/>
+                <h3 id="penduduk" class="section-title fw-semibold justify-content-start mt-4">Menyatu Dengan Penduduk Lokal</h3>
+                <p class="mt-4">
+                    Untuk mendapatkan pengalaman yang lebih otentik, Sobat Pesona bisa berkunjung ke desa-desa tradisional dan berkomunikasi dengan Suku Sasak. Sobat Pesona dapat melihat secara langsung bagaimana keseharian mereka, bahkan
+                    bisa berkesempatan belajar membuat kain tenun dengan mendatangi Desa Sade dan Rambitan.
+                </p>
+                <p class="mt-4">
+                    Menyebrang ke Pulau Sembawa lewat Pelabuhan di Lombok Timur, Sobat Pesona akan disuguhkan dengan berbagai pemandangan menakjubkan, di antaranya dengan mampir sebentar ke pantai pasir hitam "Obel-Obel" yang mengagumkan.
+                </p>
+                <p class="mt-4">
+                    Di Lombok Barat, Sobat Pesona bisa bersantai di Pantai Senggigi dan bertemu dengan binatang liar di Hutan Monyet Pusuk yang terletak di perbatasan antara Lombok Barat dan Utara. Jika mengunjungi tempat ini, pastikan
+                    Sobat Pesona berhati-hati dan menjaga barang bawaan dengan baik, ya.
+                </p>
+                <p class="mt-4">Bergeser ke kota, ada Mataram sebagai pusat pemerintahan dan industri. Kota ini meliputi kota tua Ampenan, Cakranegara sebagai wilayah komersial, dan Mataram sebagai pusat perkantoran.</p>
+                <img alt="Air terjun di pulau lombok" src="lombok/lombok3.jpg"/>
+                <p class="mt-4">Luangkan waktu Sobat Pesona untuk mengunjungi Museum Nusa Tenggara Barat, Kabun Mayura, dan Taman Narmada untuk menemukan cerita-cerita menarik terkait pulau Lombok.</p>
+                <p class="mt-4">
+                    Untuk Sobat Pesona yang berjiwa petualang, silakan mengeksplorasi pesisir pantai selatan. Misalnya saja Pantai Tangsi 'Pink' yang sangat terkenal karena memiliki karang yang indah dan warnanya agak memerah. Sobat Pesona
+                    juga bisa mencoba menelusuri trek menantang menuju Air Terjun Senaru dan Air Terjun Benang Kelambu.
+                </p>
+                <h3 id="souvenir" class="section-title fw-semibold justify-content-start">Koleksi Souvenir Khas Lombok</h3>
+                <img alt="Air terjun di pulau lombok" src="lombok/lombok1.jpg"/>
+                <p class="mt-4">
+                    Tak afdol rasanya jalan-jalan #DiIndonesiaAja jika tidak membeli buah tangan khas dari destinasi liburan yang dikunjungi, termasuk saat Sobat Pesona sedang berada di Lombok. Ada banyak souvenir khas Lombok yang bisa kamu
+                    jadikan oleh-oleh lho, Sobat Pesona. Apalagi oleh-oleh yang paling terkenal dari Lombok selain tenun sasaknya yang mendunia? Nah, jika berkunjung ke Lombok, pastikan Sobat Pesona mampir ke desa-desa wisata penghasil
+                    tenun sasak ya, seperti Desa Sade, Desa Sukarara, dan Desa Ende. Selain bisa melihat, belajar, dan membeli kain tenun yang dikenal indah, di beberapa lokasi di ketiga desa ini kamu juga bisa berfoto dengan memakai kain
+                    tradisional Lombok, lho!
+                </p>
+
+                <p class="mt-4">
+                    Selain tenun, ada beberapa kerajinan tangan yang bisa Sobat Pesona jadikan buah tangan untuk orang-orang tersayang. Sebut saja beberapa di antaranya, anyaman ketak yang terbuat dari tanaman liar karya Desa Beleka dan
+                    kerajinan tanah liat, seperti anglo, kuali, guci, dan kendi maling yang bisa dengan mudah kamu temukan di daerah Banyumulek, Lombok Barat.
+                </p>
+                <h3 id="jalur" class="section-title fw-semibold justify-content-start mt-4">Akses Menuju ke Lombok</h3>
+                <ul>
+                    <li class="fw-semibold">Jalur udara :</li>
+                    <p>
+                        Ada penerbangan setiap hari dari Denpasar, Bali ke Mataram, Lombok maupun sebaliknya. Lombok International Airport (LOP) terletak di Tanah Awu, Lombok Tengah, sekitar 30 kilometer dari wilayah tenggara Mataram.
+                        Maskapai yang melayani penerbangan ke Lombok antara lain Garuda, Lion Air, Silk Air, dan Transnusa. .
+                    </p>
+                    <li class="fw-semibold">Jalur laut dengan Ferry :</li>
+                    <p>
+                        Ferry dengan rute Padang Bai (Bali) dan Lembar (Lombok) beroperasi beberapa kali dalam sehari. Perjalanan dengan transportasi ini membutuhkan waktu sekitar 4-5 jam. Untuk ferry yang dengan rute Labuhan, Lombok dan
+                        Poto Tano, Sumbawa juga berjalan beberapa kali dalam sehar, namun dengan waktu perjalanan yang lebih singkat, kurang lebih satu jam setengah.
+                    </p>
+                    <li class="fw-semibold">Jalur laut dengan fast Boat :</li>
+                    <p>
+                        Blue Water Safari Express adalah salah satu perusahaan yang menawarkan jasa fast boat yang akan membawa Sobat Pesona dari Bali menuju ke Lombok. Ada dua titik keberangkatan di Bali, yakni Serangan (dekat dengan
+                        Pelabuhan Benoa) dan Pelabuhan Padang Bai. Sobat Pesona juga bisa melihat gilibookings.com untuk mendapatkan informasi lain terkait transportasi dan akomodasi selama berada di pulau eksotis Lombok.
+                    </p>
+                </ul>
+                <h3 id="jalur" class="section-title fw-semibold justify-content-start mt-4">Berkeliling Lombok</h3>
+                <p>
+                    Untuk berkeliling Lombok dengan jalur darat, Sobat Pesona bisa menyewa motor atau mobil dari tempat penyewaan terpercaya. Ada transportasi umum bemo yang dapat mengantarkan Sobat Pesona ke beberapa destinasi wisata.
+                    Namun sayangnya, bemo hanya beroperasi di siang hari. Tapi tenang, di malam hari, akan ada banyak ojek. Jika memilih menggunakan jasa ojek, pastikan Sobat Pesona pintar menawar, ya. Transportasi lain yang paling unik
+                    adalah cidomo (cikar-dokar-motor) yang mampu membawa kurang lebih 4 orang dan bisa ditemukan di Pantai Senggigi atau di Gili.
+                </p>
+
+                <h1 id="pict" class="section-title justify-content-start">Picts Of Morotai</h1>
+                <div id="Destinasi" class="destinasi container">
+                    <div class="row">
+                        <div class="col-md-6 col-xl-3 col-sm-6 mb-4">
+                            <div class="card">
+                                <img src="lombok/lombok1 (1).jpg" class="card-img-top" alt="destinasi"/>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-3 col-sm-6 mb-4">
+                            <div class="card">
+                                <img src="lombok/lombok1.jpg" class="card-img-top" alt="destinasi"/>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-3 col-sm-6 mb-4">
+                            <div class="card">
+                                <img src="lombok/lombok2.jpg" class="card-img-top" alt="destinasi"/>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-3 col-sm-6 mb-4">
+                                <div class="card">
+                                    <img src="lombok/lombokH.jpg" class="card-img-top" alt="destinasi"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+        <!-- Footer -->
+		<footer id="kaki" class="footer py-4">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<img class="logo mb-2" src="fig/logo.png" alt="logo" width="150" height="auto"/>
+					</div>
+					<div class="col-md-4">
+						<ul class="list-group list-group-flush">
+							<h5>Tentang Kami</h5>
+							<li class="list-group-item"><img src="fig/solid-small-diamond-32x32.svg" alt="diamond icon"/>Kebijakan Privasi</li>
+							<li class="list-group-item"><img src="fig/solid-small-diamond-32x32.svg" alt="diamond icon"/>Kebijakan Cookie</li>
+							<li class="list-group-item"><img src="fig/solid-small-diamond-32x32.svg" alt="diamond icon"/>Syarat Dan Ketentuan</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul class="list-group list-group-flush">
+							<h5>Pengalaman Bersama Kami</h5>
+							<li class="list-group-item"><img src="fig/solid-small-diamond-32x32.svg" alt="diamond icon"/>Blog</li>
+							<li class="list-group-item"><img src="fig/solid-small-diamond-32x32.svg" alt="diamond icon"/>Atur Rencana Anda</li>
+							<li class="list-group-item"><img src="fig/solid-small-diamond-32x32.svg" alt="diamond icon"/>Service Pengguna</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<h5>Kontak Kami</h5>
+						<p class="email">Email: pesonaindonesia@gmail.com</p>
+						<h5>Sosial Media Kami</h5>
+						<p>
+							<a class="icon facebook" href="#"><img src="fig/icon-social-facebook.svg" alt="Facebook"/></a> | <a class="icon" href="#"><img src="fig/icon-social-instagram.svg" alt="Instagram"/></a> |
+							<a class="icon" href="#"><img src="fig/icon-social-twitter.svg" alt="Twitter"/></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- JavaScript dan Bootstrap JavaScript -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

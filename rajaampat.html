@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="id">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Mengimpikan Raja Ampat? Jadikan Kenyataan</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+
+		<link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css"/>
+		<link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css"/>
+		<!-- CSS -->
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg sticky-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="fig/logo.png" alt="Logo" width="45" height="25" class="d-inline-block align-text-top"/>
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggler">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav ms-auto align-items-center">
+						<a class="nav-link" href="#destinasi">Destinasi</a>
+						<a class="nav-link" href="#kuliner">Kuliner</a>
+						<a class="nav-link" href="#jalur">Jalur Tempuh</a>
+						<a class="nav-link" href="#pict">Picture</a>
+						<a class="nav-link" href="#kaki">Tentang Kami</a>
+						<button class="nav-link search-btn" id="searchButton">
+							<i class="nav-link fi fi-rr-search"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- Tambahkan ini setelah navbar -->
+		<div id="mobileMenuOverlay"></div>
+		<div id="mobileMenu">
+			<a class="nav-link" href="#destinasi">Destinasi</a>
+			<a class="nav-link" href="#kuliner">Kuliner</a>
+			<a class="nav-link" href="#jalur">Jalur Tempuh</a>
+			<a class="nav-link" href="#pict">Picture</a>
+			<a class="nav-link" href="#kaki">Tentang Kami</a>
+			<button class="nav-link search-btn" id="searchButtonMobile">
+				<i class="nav-link fi fi-rr-search"></i>
+			</button>
+		</div>
+
+		<!-- Modal Pencarian -->
+		<div id="searchModal" class="modal">
+			<div class="modal-content">
+				<span class="close" id="closeModal">&times;</span>
+				<h5>Search</h5>
+				<input type="text" id="searchInput" placeholder="Type your search here"/>
+				<button id="searchSubmit">Search</button>
+			</div>
+		</div>
+
+		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="rajaampat/rajaampatH.jpg" class="d-block w-100" alt="Banner"/>
+					<div class="carousel-caption d-none d-md-block">
+						<h1>Raja Ampat</h1>
+						<p>#DiIndonesiaAja</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<main class="container">
+			<section class="content">
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb mt-2">
+						<li class="breadcrumb-item"><a href="home.html">Home</a></li>
+						<li class="breadcrumb-item active" aria-current="page">Raja Ampat</li>
+					</ol>
+				</nav>
+				<h1 class="section-title justify-content-start">Raja Ampat</h1>
+				<div class="break-line">
+					<hr class="border-0"/>
+				</div>
+
+				<p class="mt-4">
+					Jauh dari hiruk pikuk kota metropolitan, salah satu destinasi #DiIndonesiaAja istimewa ini menawarkan ketenangan dan kedamaian. Raja Ampat, sebuah Kabupaten dan merupakan bagian dari Provinsi Papua Barat. Suguhan alam yang
+					ditawarkan begitu mengagumkan, hingga bisa membuat wisatawan enggan pulang
+				</p>
+				<img alt="Pemandangan raja ampat" src="rajaampat/2.jpg"/>
+				<p class="mt-4">
+					Kini, Pulau Morotai telah memiliki 53.000 penduduk dan kembali menjadi surga tropis yang tenang. Saat ini, pemerintah Indonesia berencana untuk mengembangkan Pulau Morotai menjadi pusat perikanan, pariwisata, serta jasa.
+				</p>
+				<h3 id="destinasi" class="section-title fw-semibold justify-content-start">Keistimewaan Raja Ampat</h3>
+				<p class="mt-4">
+					Kepulauan Raja Ampat berada di bagian paling barat Papua dan membentang di area seluas kurang lebih 4,6 juta hektar. Kabupaten Raja Ampat terdiri dari 4 pulau besar yaitu Pulau Waigeo, Batanta, Salawati dan Misool, dan 1.847
+					pulau-pulau kecil lainnya. Nah, nama Raja Ampat sendiri diyakini berasal dari legenda masyarakat setempat yang percaya bahwa zaman dahulu kala ada seorang wanita yang menemukan tujuh telur, empat telur tersebut menetas menjadi
+					raja-raja yang berkuasa di empat pulau utama. Tersisa tiga lainnya, satu menjadi batu, satu menjadi wanita, dan satu lagi menjadi makhluk gaib atau hantu.Terlepas legenda yang dipercayai masyarakat setempat, keindahan yang
+					disuguhkan oleh Raja Ampat merupakan fakta yang tak bisa diganggu gugat.
+				</p>
+				<img alt="Pemandangan bawah laut Raja Ampat" src="rajaampat/1.jpg"/>
+				<p class="mt-4">
+					Bagi Sobat Pesona yang gemar diving dan snorkeling, wilayah perairan Raja Ampat adalah salah satu destinasi diving terbaik di dunia. Menurut laporan sebuah organisasi sosial lingkungan internasional, The Nature Conservancy and
+					Conservation International, sekitar 75% spesies karang di dunia hidup di kepulauan Raja Ampat. Destinasi ini memiliki kekayaan dan keunikan spesies yang tinggi dengan ditemukannya 1.318 jenis ikan, 699 jenis moluska (hewan lunak),
+					dan 537 jenis terumbu karang. Rasakan sendiri sensasi menyelam dan bertemu dengan ragam jenis biota laut yang unik, seperti kuda laut kerdil (pygmy seahorse), ikan kelelawar , hingga dugong bisa kamu temukan di wilayah perairan
+					Raja Ampat.
+				</p>
+				<img alt="Alam bawah laut raja Ampat" src="rajaampat/3.jpg"/>
+				<p class="mt-4">
+					Beberapa spot menyelam terbaik dan paling terkenal di Raja Ampat di antaranya adalah Kabui Passage, di sekitar Dermaga Pulau Arborek, Sauwandarek, Yenbuba, Dinding Friwen, dan banyak lagi! Tak heran ya, jika banyak sekali
+					wisatawan mancanegara yang rela jauh-jauh datang ke Indonesia untuk menikmati pesona bawah lautnya yang memesona. Kamu jangan mau kalah, yuk, masukkan Raja Ampat ke daftar kunjunganmu nanti, Sobat Pesona!
+				</p>
+				<p class="mt-4">
+					Tak hanya keindahan bawah lautnya yang luar biasa, pemandangan di atas permukaan juga tak kalah memesona. Panorama deretan pulau-pulau batu di tengah gradasi air biru terlihat begitu surgawi saat dilihat dari atas bukit. Siapkan
+					fisik yang kuat dan lakukan trekking ke atas puncak bukitnya untuk melihat pemandangan indah seperti ini, ya!
+				</p>
+				<img alt="Pemandangan yang indah " src="rajaampat/RA_Pianemoisland_indtravel.jpg"/>
+
+				<h3 id="Desa" class="section-title fw-semibold justify-content-start mt-4">Desa Wisata Di Raja Ampat</h3>
+				<p class="mt-4">
+					Disamping pemandangan alamnya yang memukau, Raja Ampat juga menawarkan keramahan masyarakat setempat yang akan membuat Sobat Pesona betah. Selain menjelajahi alamnya, jangan lupa untuk menyelami budaya setempat, ya! Sobat Pesona
+					bisa mengunjungi sekaligus menginap di Desa Wisata Arborek.
+				</p>
+				<p class="mt-4">
+					Ada banyak sekali pilihan penginapan serta atraksi wisata yang bisa Sobat Pesona nikmati selama di desa wisata ini, seperti melihat pembuatan kerajinan anyaman khas Arborek yang sudah terkenal hingga mancanegara, hingga mencicipi
+					berbagai macam kuliner tradisional khas Papua, seperti papeda atau sinole.
+				</p>
+				<img alt="Tranfor tadi masyarakat Raja Ampat" src="rajaampat/rajaampat2.jpg"/>
+
+				<h3 id="jalur" class="section-title fw-semibold justify-content-start mt-4">Yuk, Keraja Ampat</h3>
+				<p>
+					Untuk mencapai kepulauan Raja Ampat, Sobat Pesona pertama-tama harus mengambil penerbangan dari Jakarta atau kota-kota besar lainnya ke Sorong, Papua. Sesampainya di Bandara Sorong, kamu bisa melanjutkan perjalanan ke Raja Ampat
+					via laut.
+				</p>
+				<p>Ada tiga pintu masuk sekaligus lokasi pengecekan menuju ke Raja Ampat, yaitu Pelabuhan Falaya di Wasai, Pelabuhan Yellu di Pulau Misool, dan Bandara Marindi di Pulau Waigeo.</p>
+				<p>Wah, kemudahan akses yang diberikan bikin kita nggak sabar untuk segera menyapa keajaiban di Raja Ampat ya, Sobat Pesona!</p>
+				<p>Tetap disiplin menerapkan protokol kesehatan di mana pun Sobat Pesona berada! Selalu gunakan masker, mencuci tangan secara berkala, dan menjaga jarak sebagai bentuk kepedulian terhadap diri sendiri dan orang-orang sekitar!</p>
+
+				<h1 id="pict" class="section-title justify-content-start">Picts Of Raja Ampat</h1>
+				<div id="Destinasi" class="destinasi container">
+					<div class="row">
+						<div class="col-md-6 col-xl-3 col-sm-6 mb-4">
+							<div class="card">
+								<img src="rajaampat/rajaampat2.jpg" class="card-img-top" alt="destinasi"/>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-3 col-sm-6 mb-4">
+							<div class="card">
+								<img src="rajaampat/2.jpg" class="card-img-top" alt="destinasi"/>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-3 col-sm-6 mb-4">
+							<div class="card">
+								<img src="rajaampat/3.jpg" class="card-img-top" alt="destinasi"/>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-3 col-sm-6 mb-4">
+							<div class="card">
+								<img src="rajaampat/RA_Pianemoisland_indtravel.jpg" class="card-img-top" alt="destinasi"/>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-3 col-sm-6 mb-4">
+							<div class="card">
+								<img src="rajaampat/rajaampatbaruu-v1.jpg" class="card-img-top" alt="destinasi"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- Footer -->
+		<footer id="kaki" class="footer py-4">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<img class="logo mb-2" src="fig/logo.png" alt="logo" width="150" height="auto"/>
+					</div>
+					<div class="col-md-4">
+						<ul class="list-group list-group-flush">
+							<h5>Tentang Kami</h5>
+							<li class="list-group-item"><img src="fig/solid-small-diamond-32x32.svg" alt="diamond icon"/>Kebijakan Privasi</li>
+							<li class="list-group-item"><img src="fig/solid-small-diamond-32x32.svg" alt="diamond icon"/>Kebijakan Cookie</li>
+							<li class="list-group-item"><img src="fig/solid-small-diamond-32x32.svg" alt="diamond icon"/>Syarat Dan Ketentuan</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul class="list-group list-group-flush">
+							<h5>Pengalaman Bersama Kami</h5>
+							<li class="list-group-item"><img src="fig/solid-small-diamond-32x32.svg" alt="diamond icon"/>Blog</li>
+							<li class="list-group-item"><img src="fig/solid-small-diamond-32x32.svg" alt="diamond icon"/>Atur Rencana Anda</li>
+							<li class="list-group-item"><img src="fig/solid-small-diamond-32x32.svg" alt="diamond icon"/>Service Pengguna</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<h5>Kontak Kami</h5>
+						<p class="email">Email: pesonaindonesia@gmail.com</p>
+						<h5>Sosial Media Kami</h5>
+						<p>
+							<a class="icon facebook" href="#"><img src="fig/icon-social-facebook.svg" alt="Facebook"/></a> | <a class="icon" href="#"><img src="fig/icon-social-instagram.svg" alt="Instagram"/></a> |
+							<a class="icon" href="#"><img src="fig/icon-social-twitter.svg" alt="Twitter"/></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- JavaScript dan Bootstrap JavaScript -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

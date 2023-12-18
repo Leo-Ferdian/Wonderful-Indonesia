@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Morotai, Surga Tropis di Maluku Utara</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+
+		<link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css"/>
+		<link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css"/>
+		<!-- CSS -->
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg sticky-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="fig/logo.png" alt="Logo" width="45" height="25" class="d-inline-block align-text-top"/>
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggler">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav ms-auto align-items-center">
+						<a class="nav-link" href="#sejarah">Sejarah</a>
+						<a class="nav-link" href="#destinasi">Destinasi</a>
+						<a class="nav-link" href="#kuliner">Kuliner</a>
+						<a class="nav-link" href="#jalur">Jalur Tempuh</a>
+						<a class="nav-link" href="#pict">Picture</a>
+						<a class="nav-link" href="#kaki">Tentang Kami</a>
+						<button class="nav-link search-btn" id="searchButton">
+							<i class="nav-link fi fi-rr-search"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- Tambahkan ini setelah navbar -->
+		<div id="mobileMenuOverlay"></div>
+		<div id="mobileMenu">
+			<a class="nav-link" href="#sejarah">Sejarah</a>
+			<a class="nav-link" href="#destinasi">Destinasi</a>
+			<a class="nav-link" href="#kuliner">Kuliner</a>
+			<a class="nav-link" href="#jalur">Jalur Tempuh</a>
+			<a class="nav-link" href="#pict">Picture</a>
+			<a class="nav-link" href="#kaki">Tentang Kami</a>
+			<button class="nav-link search-btn" id="searchButtonMobile">
+				<i class="nav-link fi fi-rr-search"></i>
+			</button>
+		</div>
+
+		<!-- Modal Pencarian -->
+		<div id="searchModal" class="modal">
+			<div class="modal-content">
+				<span class="close" id="closeModal">&times;</span>
+				<h5>Search</h5>
+				<input type="text" id="searchInput" placeholder="Type your search here"/>
+				<button id="searchSubmit">Search</button>
+			</div>
+		</div>
+
+		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="morotai/header-morotai.jpg" class="d-block w-100" alt="Banner"/>
+					<div class="carousel-caption d-none d-md-block">
+						<h1>Morotai, Maluku Utara</h1>
+						<p>#DiIndonesiaAja</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<main class="container">
+			<section class="content">
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb mt-2">
+						<li class="breadcrumb-item"><a href="home.html">Home</a></li>
+						<li class="breadcrumb-item active" aria-current="page">Morotai</li>
+					</ol>
+				</nav>
+				<h1 class="section-title justify-content-start">Morotai, Surga Tropis di Maluku Utara</h1>
+				<div class="break-line">
+					<hr class="border-0"/>
+				</div>
+				<p class="mt-4">
+					Sobat Pesona ada yang sudah kenal belum sama Pulau Morotai? Pulau yang tersembunyi di ujung Maluku Utara ini ternyata kaya akan pemandangan yang luar biasa, lho! Selain itu, Pulau Morotai juga pun menyimpan sebuah sejarah yang
+					cukup menarik di masa lalu. Enggak cuma punya pemandangan cantik sama sejarah unik, pulau yang dijadikan sebagai salah satu Destinasi Pariwisata Prioritas ini juga punya kuliner khas yang bisa bikin Sobat Pesona tergiur! Mau tau
+					lebih lengkap tentang pulau yang satu ini? Simak aja ulasan lengkapnya di bawah ini!
+				</p>
+
+				<h3 id="sejarah" class="section-title fw-semibold justify-content-start">Sejarah</h3>
+				<p class="mt-4">
+					Pulau yang terletak di utara pulau Halmahera ini ternyata memiliki masa lalu yang menarik, lho! Masyarakat lokal yang masih mengingat Perang Dunia ke-2 seringkali menceritakan kisah tentang Pulau Morotai pada saat itu, di mana
+					pulau tersebut pernah menjadi sarang dari berbagai macam aktivitas militer, dari serangan mendadak, hentakan ribuan pasukan tentara, sampai kapal-kapal angkatan laut yang pernah berlabuh di sana.
+				</p>
+				<img alt="sebuah dermaga di Pulau Morotai" src="morotai/dermaga.jpg"/>
+				<p class="mt-4">
+					Nah, salah satu sejarah yang melekat di kalangan masyarakat lokal Morotai adalah peristiwa 15 September 1944, tepatnya ketika pasukan Sekutu dari Amerika Serikat dan Australia yang dipimpin oleh Jenderal Douglas MacArthur,
+					mendarat di ujung barat daya Pulau Morotai untuk mengambil alih pulau tersebut dari kekuasaan pasukan Jepang. Setelah memenangkan pertempuran, Jenderal MacArthur memutuskan untuk membangun pangkalan militer di Pulau Morotai dengan
+					lebih dari 50.000 personil tentara. Jenderal MacArthur dipercaya telah berhasil membangun beberapa lapangan terbang, sebuah rumah sakit, juga pangkalan laut di Pulau Morotai dalam waktu yang cukup singkat, lho!
+				</p>
+				<p class="mt-4">
+					Kini, Pulau Morotai telah memiliki 53.000 penduduk dan kembali menjadi surga tropis yang tenang. Saat ini, pemerintah Indonesia berencana untuk mengembangkan Pulau Morotai menjadi pusat perikanan, pariwisata, serta jasa.
+				</p>
+				<h3 id="destinasi" class="section-title fw-semibold justify-content-start">Destinasi</h3>
+				<p class="mt-4">
+					Terletak di utara pulau terbesar, Halmahera, di provinsi <a href="https://www.indonesia.travel/id/id/destinasi/maluku-papua" class="link-underline-primary">Maluku Utara</a>, Pulau Morotai menyimpan berbagai macam pantai yang cantik
+					dan titik selam yang menarik. Kota terbesar di sini adalah Daruba yang berada di bagian utara. Dari Daruba, Sobat Pesona bisa menjelajah
+					<a href="https://www.indonesia.travel/id/id/ide-liburan/suka-pengalaman-baru-cek-5-destinasi-di-morotai-buat-liburan-berikutnya">beberapa pantai</a> yang sungguh memesona di sekitar Morotai, seperti Pulau Dodola di barat daya, Pantai
+					Gorango di timur laut, Pulau Kokoya di barat laut, Pulau Tabailenge di bagian timur, serta Pantai Rorasa yang juga berada di bagian timur Pulau Morotai.<br />
+				</p>
+				<img alt="sebuah dermaga di Pulau Morotai" src="morotai/pantai-gorango.jpg"/>
+				<p class="mt-4">
+					Selain tempat-tempat elok tersebut, di sini juga terdapat berbagai macam peninggalan dari Perang Dunia ke-2, seperti patung Jenderal Douglas MacArthur yang berdiri kokoh di atas Pulau Sum Sum tak jauh dari Daruba, mengingatkan
+					generasi yang akan datang tentang Jenderal ternama yang satu ini.
+				</p>
+				<p class="mt-4">
+					Di dekat Teluk Kao di sekitar Halmahera juga terdapat sebuah bangkai kapal perang Jepang yang bernama Tosimaru dan dapat terlihat dari kejauhan. Rumah berisikan memorabilia Perang Dunia ke-2 yang di koleksi oleh masyarakat
+					setempat juga ada di sini, tepatnya di Museum Morotai.
+				</p>
+				<h3 id="kuliner" class="section-title fw-semibold justify-content-start">Kuliner</h3>
+				<p class="mt-4">
+					Menjelajahi surga tropis belum cukup rasanya kalau belum diiringi oleh santapan khas sekitar Morotai. Beberapa kuliner khas Morotai yang patut dicoba di antaranya adalah nasi jaha, salah satu hidangan yang terbuat dari campuran
+					beras, santan kelapa, dan bumbu yang dibakar dan dibalut dengan daun. Coba juga segarnya tangkapan laut sekitar ditemani oleh nikmatnya papeda. Bagi para pecinta makanan pedas, jangan khawatir! Di sini ada hidangan pedas yang
+					bernama gohu ikan, diolah dari ikan yang dibumbui dengan garam, tumisan bawang, dan cabai.
+				</p>
+				<img alt="sebuah dermaga di Pulau Morotai" src="morotai/kuliner-morotai.jpg"/>
+				<h3 id="jalur" class="section-title fw-semibold justify-content-start mt-4">Cara Menuju Pulau Morotai</h3>
+				<p class="mt-4">Ada dua cara yang bisa ditempuh Sobat Pesona untuk mencapai pulau yang istimewa ini, yaitu melalui jalur laut atau jalur udara:</p>
+				<ul>
+					<li class="fw-semibold">Jalur Laut :</li>
+					<p>Jalur laut adalah salah satu metode yang paling aman dan pasti buat Sobat Pesona untuk mencapai Pulau Morotai. Caranya adalah dengan menaiki kapal pesiar atau kapal layar dari pelabuhan di Ternate atau Manado.</p>
+					<li class="fw-semibold">Jalur Udara :</li>
+					<p>
+						Kalau Sobat Pesona ingin melewati jalur udara, landasan udara terdekat berada di Pulau Ternate. Ketika sudah sampai di sana, Sobat Pesona harus berjalan ke Tobelo di Halmahera Utara terlebih dahulu, sebelum menaiki kapal feri
+						ke kota Daruba di Pulau Morotai. Perjalanan lautnya kurang lebih memakan waktu 2 jam.
+					</p>
+				</ul>
+
+				<h1 id="pict" class="section-title justify-content-start">Picts Of Morotai</h1>
+				<div id="Destinasi" class="destinasi container">
+					<div class="row">
+						<div class="col-md-6 col-xl-3 col-sm-6 mb-4">
+							<div class="card">
+								<img src="morotai/thumbnail-morotai.jpg" class="card-img-top" alt="destinasi"/>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-3 col-sm-6 mb-4">
+							<div class="card">
+								<img src="morotai/dermaga.jpg" class="card-img-top" alt="destinasi"/>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-3 col-sm-6 mb-4">
+							<div class="card">
+								<img src="morotai/kuliner-morotai.jpg" class="card-img-top" alt="destinasi"/>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-3 col-sm-6 mb-4">
+							<div class="card">
+								<img src="morotai/pantai-gorango.jpg" class="card-img-top" alt="destinasi"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- Footer -->
+		<footer id="kaki" class="footer py-4">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<img class="logo mb-2" src="fig/logo.png" alt="logo" width="150" height="auto"/>
+					</div>
+					<div class="col-md-4">
+						<ul class="list-group list-group-flush">
+							<h5>Tentang Kami</h5>
+							<li class="list-group-item"><img src="fig/solid-small-diamond-32x32.svg" alt="diamond icon"/>Kebijakan Privasi</li>
+							<li class="list-group-item"><img src="fig/solid-small-diamond-32x32.svg" alt="diamond icon"/>Kebijakan Cookie</li>
+							<li class="list-group-item"><img src="fig/solid-small-diamond-32x32.svg" alt="diamond icon"/>Syarat Dan Ketentuan</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul class="list-group list-group-flush">
+							<h5>Pengalaman Bersama Kami</h5>
+							<li class="list-group-item"><img src="fig/solid-small-diamond-32x32.svg" alt="diamond icon"/>Blog</li>
+							<li class="list-group-item"><img src="fig/solid-small-diamond-32x32.svg" alt="diamond icon"/>Atur Rencana Anda</li>
+							<li class="list-group-item"><img src="fig/solid-small-diamond-32x32.svg" alt="diamond icon"/>Service Pengguna</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<h5>Kontak Kami</h5>
+						<p class="email">Email: pesonaindonesia@gmail.com</p>
+						<h5>Sosial Media Kami</h5>
+						<p>
+							<a class="icon facebook" href="#"><img src="fig/icon-social-facebook.svg" alt="Facebook"/></a> | <a class="icon" href="#"><img src="fig/icon-social-instagram.svg" alt="Instagram"/></a> |
+							<a class="icon" href="#"><img src="fig/icon-social-twitter.svg" alt="Twitter"/></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- JavaScript dan Bootstrap JavaScript -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
